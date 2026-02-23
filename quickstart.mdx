@@ -1,58 +1,10 @@
 ---
-title: "Quickstart"
-description: "Deploy Helvi Enterprise in minutes"
+title: "Schnellstart"
+description: "In 5 Minuten startklar mit Helvi."
 ---
 
-Follow these steps to get your first Helvi instance running and configured.
+# Schnellstart
 
-<Steps>
-  <Step title="Clone & Install">
-    Clone the repository and install dependencies using your preferred package manager.
-    ```bash
-    git clone https://github.com/helvi-hq/helvi
-    cd helvi
-    npm install
-    ```
-  </Step>
-  <Step title="Environment Setup">
-    Copy the `.env.example` to `.env` and configure your database and authentication secrets.
-    ```bash
-    cp .env.example .env
-    ```
-    <Info>Ensure `NEXTAUTH_URL` is set correctly for your environment (e.g., `http://localhost:3000`).</Info>
-  </Step>
-  <Step title="Database Initialization">
-    Run the Prisma migrations to set up your database schema.
-    ```bash
-    npx prisma migrate dev
-    ```
-  </Step>
-  <Step title="Launch the Platform">
-    Start the development server.
-    ```bash
-    npm run dev
-    ```
-    Navigate to `http://localhost:3000` to see your Helvi instance in action.
-  </Step>
-</Steps>
-
-## Next Steps
-
-Now that you're up and running, explore the core features of Helvi.
-
-<CardGroup cols={2}>
-  <Card
-    title="Create Your First Space"
-    icon="folder-plus"
-    href="/features/spaces"
-  >
-    Organize your team's knowledge into dedicated, secure workspaces.
-  </Card>
-  <Card
-    title="Customize PDF Templates"
-    icon="swatchbook"
-    href="/features/pdf-export"
-  >
-    Set up your brand guidelines for high-end exports.
-  </Card>
-</CardGroup>
+1. Installiere die Helvi App.
+2. Konfiguriere deinen ersten PDF-Export.
+3. Fertig!
