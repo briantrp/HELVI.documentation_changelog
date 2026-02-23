@@ -6,19 +6,21 @@
     "light": "#333333",
     "dark": "#000000"
   },
-  "navigation": [
-    {
-      "group": "Getting Started",
-      "pages": [
-        "index",
-        "quickstart"
-      ]
-    },
-    {
-      "group": "Changelog",
-      "pages": [
-        "changelog/v091-beta"
-      ]
-    }
-  ]
+  "navigation": {
+    "tabs": [
+      {
+        "group": "Getting Started",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Changelog",
+        "pages": [
+          "changelog/v091-beta"
+        ]
+      }
+    ]
+  }
 }
