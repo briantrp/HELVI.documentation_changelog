@@ -1,20 +1,26 @@
 {
   "name": "Helvi",
   "theme": "mint",
-  "favicon": "/favicon.png",
   "colors": {
     "primary": "#1A1A1A",
     "light": "#333333",
     "dark": "#000000"
   },
-  "navigation": [
-    {
-      "group": "Einstieg",
-      "pages": ["index", "quickstart"]
-    },
-    {
-      "group": "Updates",
-      "pages": ["changelog/v091-beta"]
-    }
-  ]
+  "navigation": {
+    "tabs": [
+      {
+        "group": "Einstieg",
+        "pages": [
+          "index",
+          "quickstart"
+        ]
+      },
+      {
+        "group": "Updates",
+        "pages": [
+          "changelog/v091-beta"
+        ]
+      }
+    ]
+  }
 }
