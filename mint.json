@@ -9,17 +9,12 @@
   },
   "navigation": [
     {
-      "group": "Getting Started",
-      "pages": [
-        "index",
-        "quickstart"
-      ]
+      "group": "Einstieg",
+      "pages": ["index", "quickstart"]
     },
     {
-      "group": "Changelog",
-      "pages": [
-        "changelog/v091-beta"
-      ]
+      "group": "Updates",
+      "pages": ["changelog/v091-beta"]
     }
   ]
 }
