@@ -1,0 +1,17 @@
+---
+title: "v0.9.0-beta"
+description: "Security Patch and Build Stability"
+---
+
+## Release Notes - February 22, 2026
+
+We've pushed a critical update to the Collabase Enterprise Platform, focusing on security, high-fidelity exports, and infrastructure stability.
+
+### 🛡️ Security Patch: Nanoid Upgrade
+- **Transitive Safety**: Implemented `overrides` in `package.json` to ensure even nested dependencies like `@excalidraw/excalidraw` and `postcss` use the secure version.
+
+
+### 🛠️ Build & Infrastructure Stability
+- **Next.js Prerendering Fix**: Successfully resolved the `useSearchParams()` bailout by wrapping the dashboard in a global `<Suspense>` boundary.
+- **Admin Dashboard Reliability**: Applied `force-dynamic` to all admin routes to ensure production consistency.
+

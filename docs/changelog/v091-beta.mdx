@@ -1,0 +1,28 @@
+---
+title: "v0.9.1-beta"
+description: "Security Patch, PDF Engine Overhaul, and Build Stability"
+---
+
+## Release Notes - February 23, 2026
+
+We've pushed a critical update to the Collabase Enterprise Platform, focusing on security, high-fidelity exports, and infrastructure stability.
+
+### 🛡️ Security Patch: Nanoid Upgrade
+- **Vulnerability Fix**: Upgraded `nanoid` to `v5.1.6` to address critical security advisories.
+- **Transitive Safety**: Implemented `overrides` in `package.json` to ensure even nested dependencies like `@excalidraw/excalidraw` and `postcss` use the secure version.
+
+### 📄 Premium PDF Template Engine (Phase L)
+- **"Midnight Elite" Design**: A new high-end whitepaper style for all document exports.
+- **Full-Bleed Cover**: Edge-to-edge gradients on the first page via CSS `@page` margin rules.
+- **Smart Headers & Footers**: Automatic suppression of UI elements on the cover page while maintaining them on all content pages.
+- **Typography**: Integration of the **Outfit** Google Font and premium architectural decorations.
+
+### 🛠️ Build & Infrastructure Stability
+- **Next.js Prerendering Fix**: Successfully resolved the `useSearchParams()` bailout by wrapping the dashboard in a global `<Suspense>` boundary.
+- **Admin Dashboard Reliability**: Applied `force-dynamic` to all admin routes to ensure production consistency.
+- **Version Bump**: Official transition to **v0.9.1-beta**.
+
+---
+
+> [!TIP]
+> PDF Templates can now be managed directly via the **Admin > PDF Export** interface.
